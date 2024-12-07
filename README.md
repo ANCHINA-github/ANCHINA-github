@@ -1,4 +1,4 @@
--👋你好，我是@ANCHINA-github
+-👋我是@ANCHINA-github
 来自中国湖南
 
 <!---
