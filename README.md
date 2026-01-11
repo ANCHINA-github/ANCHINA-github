@@ -1,4 +1,4 @@
-# Hi there 👋 I'm [Your Name]
+# Hi there 👋 I'm [段长安]
 
 ## 📚 About Me
 - 🎓 **Student** based in Wugang, Hunan, China
@@ -17,7 +17,7 @@
 
 ## 📌 Projects (Customize This Section)
 > Add links to your GitHub projects here to showcase your work
-- [Project 1 Name](https://github.com/your-username/your-project) - Brief description (e.g., A simple PHP-based todo list app)
+- [Project 1 Name](https://github.com/ANCHINA-github/e-commerce) - Brief description (e.g., A simple PHP-based todo list app)
 - [Project 2 Name](https://github.com/your-username/your-project) - Brief description (e.g., Responsive website with HTML/CSS/JS)
 
 ## 📫 Get in Touch
