@@ -17,12 +17,11 @@
 
 ## 📌 Projects (Customize This Section)
 > Add links to your GitHub projects here to showcase your work
-- [Project 1 Name](https://github.com/ANCHINA-github/e-commerce) - Brief description (e.g., A simple PHP-based todo list app)
-- [Project 2 Name](https://github.com/your-username/your-project) - Brief description (e.g., Responsive website with HTML/CSS/JS)
+- [e-commerce system](https://github.com/ANCHINA-github/e-commerce) 
 
 ## 📫 Get in Touch
 - GitHub: [@your-username](https://github.com/your-username)
-- Email: your.email@example.com (optional)
+- Email: 1993802081@qq.com
 
 ## ⚡ Fun Fact
 - I love exploring new web development techniques and building practical small projects!
