@@ -20,7 +20,7 @@
 - [e-commerce system](https://github.com/ANCHINA-github/e-commerce) 
 
 ## 📫 Get in Touch
-- GitHub: [@your-username](https://github.com/your-username)
+- GitHub: [@ANCHINA-github](https://github.com/ANCHINA-github)
 - Email: 1993802081@qq.com
 
 ## ⚡ Fun Fact
