@@ -1,0 +1,230 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="shortcut icon" href="schoolicon.ico">
+        <title>
+ pioneer-首页
+        </title>
+        <style>
+/* PC端样式 */
+@media screen and (min-width: 768px) {
+    .mobile-content {
+        display: none; /* 隐藏移动端内容 */
+    }
+    .desktop-content {
+        display: block; /* 显示PC端内容 */
+    }
+}
+
+/* 移动端样式 */
+@media screen and (max-width: 223px) {
+    .mobile-content {
+        display: block; /* 显示移动端内容 */
+    }
+    .desktop-content {
+        display: none; /* 隐藏PC端内容 */
+    }
+}
+  </style>
+  <!--新的尝试-->
+  <style>
+ body {
+    margin: 20px; /* 整体页面边距 */
+    font-family:"微软雅黑";
+    font-weight: 200;
+    /*background-image:url('https://csdnimg.cn/release/blogv2/dist/pc/themesSkin/skin-blackboard/images/bg.jpg?v20200831');*/
+	background-color:#d80000;
+    background-repeat: repeat;
+ background-size: contain;
+ background-position: center;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.8); /* 半透明白色背景 */
+    padding: 10px 0;
+    margin-bottom: 20px; /* 头部与主体内容的间隔 */
+}
+
+nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center; /* 文字居中 */
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333333; /* 文字颜色 */
+            font-weight: bold;
+            font-size: 16px;
+            padding: 10px 15px; /* 文字内边距 */
+            transition: color 0.3s ease; /* 颜色过渡效果 */
+        }
+
+        nav ul li a:hover {
+            color: #ff9900; /* 鼠标悬停时的文字颜色 */
+        }
+
+        @media (max-width: 768px) {
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            nav ul li a {
+                display: block;
+                padding: 10px 0;
+            }
+        }
+
+.container {
+    display: flex;
+    justify-content: space-between; /* 左右两侧小板块和中间大板块之间的空间均匀分布 */
+    max-width: 1800px; /* 设置最大宽度 */
+    margin: 0 auto;/* 居中显示并保留页面两侧的间距 */
+}
+
+.side-left, .side-right {
+    width: 10%; /* 左右两侧板块宽度为0% */
+    background-color: rgba(255, 255, 255,0.1); /* 半透明白色背景 */
+    margin: 0 20px; /* 左右两侧板块与中间大板块之间的间隔 */
+}
+
+.block {
+    margin-bottom: 20px; /* 每个板块之间的垂直间隔 */
+    background-color: rgba(255, 255, 255);
+    padding: 10px;
+}
+
+.main {
+    flex: 2; /* 中间大板块占据更大空间 */
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 20px;
+}
+.footer {
+    padding: 20px;
+    background-color: rgb(255, 255, 255, 0.5);
+    text-align: right;
+    margin-top: auto; /* 将底部内容推送到视口的底部 */
+}
+.center {
+    text-align: center;
+}
+.text-background img {
+    bottom: -50px; /* 调整图片的位置，使其位于文字下方 */
+            transform: translateX(-50%);
+            z-index: -1; /* 将图片置于背景之后 */
+}
+  /* 设置所有链接的颜色为黑色 */
+  a {
+            color: black;
+            text-decoration: none; 
+        }
+  /* 当鼠标悬停在链接上时，链接变成蓝色 */
+  a:hover {
+            color: rgb(56, 165, 255);
+        }
+
+  </style>
+        <script>
+
+        </script>
+    </head>
+    <body>
+<div class="desktop-content">
+    <!-- PC端内容 -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="no1school.htm">一中</a></li>
+                <li><a href="war.htm">战争</a></li>
+                <li><a href="#">许and夏预定</a></li>
+                <li><a href="messageborad.htm">留言板</a></li>
+            </ul>
+        </nav>
+</header>
+
+<div class="container">
+<aside class="side-left">
+    <div class="block">
+        <button id="toggleButton">如果你是移动端，请切换</button>
+        <h2 class="center">红色教育</h2>
+       <a href="https://www.beijing.gov.cn/ywdt/zwzt/xxlhesd/" target="_blank"><img src="https://www.beijing.gov.cn/ywdt/dzyjs/zttj/202308/W020230816377320193567.png" alt="web's wrong" width="160" height="100"></a>
+       <br>
+       <a href="http://ztjy.people.cn/GB/index.html" target="_blank"><img src="https://www.beijing.gov.cn/ywdt/dzyjs/zttj/202308/W020230816377480848424.png" alt="web's wrong" width="160" height="100"></a>
+    </div>
+    <div class="block">
+        <h2 class="center">网络小说</h2>
+        <a href="http://anchina.iwopop.top/pioneer.htm" target="_blank"><p class="center">先锋者</p></a>
+        <a href="http://anchina.iwopop.top/pioneer.htm" target="_blank"><p class="center">先锋者</p></a>
+        <a href="http://anchina.iwopop.top/pioneer.htm" target="_blank"><p class="center">先锋者</p></a>
+        <a href="http://anchina.iwopop.top/pioneer.htm" target="_blank"><p class="center">先锋者</p></a>
+    </div>
+</aside>
+
+<main class="main">
+<h1 class="center"></h1>
+<p class="center"></p>
+<hr>
+<p class="center"></p>
+</main>
+
+<aside class="side-right">
+    <div class="block">
+        <!-- 右侧上方板块内容 -->
+        <h2 class="center">索引</h2>
+        <a href="http://anchina.iwopop.top/pioneer.htm" target="_blank"><p class="center">先锋者</p></a>
+        <a href="http://anchina.iwopop.top/pioneer.htm" target="_blank"><p class="center">先锋者</p></a>
+        <a href="http://anchina.iwopop.top/pioneer.htm" target="_blank"><p class="center">先锋者</p></a>
+        <a href="http://anchina.iwopop.top/pioneer.htm" target="_blank"><p class="center">先锋者</p></a>
+    </div>
+    <div class="block">
+        <!-- 右侧下方板块内容 -->
+        <h2 class="center">最近一些事儿</h2>
+        <a href="http://anchina.iwopop.top/pioneer.htm" target="_blank"><p class="center">先锋者</p></a>
+        <a href="http://anchina.iwopop.top/pioneer.htm" target="_blank"><p class="center">先锋者</p></a>
+        <a href="http://anchina.iwopop.top/pioneer.htm" target="_blank"><p class="center">先锋者</p></a>
+        <a href="http://anchina.iwopop.top/pioneer.htm" target="_blank"><p class="center">先锋者</p></a>
+    </div>
+</aside>
+</div>
+<div class="footer">
+全部自研,版权所有，侵权必究！-PIONEER开发者
+</div>
+</div>
+<!--上面是PC端内容的闭合-->
+<div class="mobile-content">
+    <!-- 移动端内容 -->
+    <style>
+        .center {
+            text-align: center;
+        }
+    </style>
+   <h1 class="center">暂不支持你用手机看，但是平板应该可以，电脑肯定行</h1>
+</div>
+
+
+<script>
+    const toggleButton = document.getElementById('toggleButton');
+const desktopContent = document.querySelector('.desktop-content');
+const mobileContent = document.querySelector('.mobile-content');
+
+toggleButton.addEventListener('click', function() {
+    if (desktopContent.style.display === 'block') {
+        desktopContent.style.display = 'none';
+        mobileContent.style.display = 'block';
+    } else {
+        desktopContent.style.display = 'block';
+        mobileContent.style.display = 'none';
+    }
+});
+
+</script>
+    </body>
+    
+</html>
