@@ -1,6 +1,10 @@
-<!-- 说明：纯Markdown静态渲染，搭配HTML内嵌轻量动效，无外部资源，科技渐变循环色、文字流光动效，不遮挡正文、不卡顿观感 -->
 <div align="center">
 <span style="background: linear-gradient(90deg, #00f0ff, #7b2fff, #ff2fb8, #00f0ff); background-size: 300% 300%; -webkit-background-clip: text; color: transparent; animation: gradient-loop 8s ease infinite; font-size: 32px; font-weight: 700; letter-spacing: 6px;">段游孤独一生</span>
+
+<div style="position: relative; overflow: hidden; padding: 8px 0;">
+<p style="color:#8992a3; font-size:14px; letter-spacing:2px;">Code wanderer · 独行代码行者</p>
+<span style="position:absolute; top:0; left:0; width:100%; height:100%; background:linear-gradient(90deg, transparent,#00d4ff,transparent); animation: light-sweep 6s linear infinite;"></span>
+</div>
 
 <style>
 @keyframes gradient-loop {
@@ -14,11 +18,6 @@
     100% { opacity: 0.2; transform: translateX(100%); }
 }
 </style>
-
-<div style="position: relative; overflow: hidden; padding: 8px 0;">
-<p style="color:#8992a3; font-size:14px; letter-spacing:2px;">Code wanderer · 独行代码行者</p>
-<span style="position:absolute; top:0; left:0; width:100%; height:100%; background:linear-gradient(90deg, transparent,#00d4ff,transparent); animation: light-sweep 6s linear infinite;"></span>
-</div>
 </div>
 
 ## 🔹 技术栈 · 深耕研习
@@ -59,7 +58,7 @@
 
 ## 🔹 自我标签
 <div align="center">
-<span style="padding:4px 12px; margin:4px; border-radius:20px; background:rgba(0,220,255,0.1); color:#00e0ff; border:1px solid #00e0ff30;">持续自学</span>
+<span style="padding:4px 12px; margin:4px; border-radius:20px; background:rgba(56, 58, 58, 0.1); color:#00e0ff; border:1px solid #00e0ff30;">持续自学</span>
 <span style="padding:4px 12px; margin:4px; border-radius:20px; background:rgba(160,80,255,0.1); color:#b070ff; border:1px solid #b070ff30;">全栈探索者</span>
 <span style="padding:4px 12px; margin:4px; border-radius:20px; background:rgba(255,80,180,0.1); color:#ff60b0; border:1px solid #ff60b030;">底层爱好者</span>
 <span style="padding:4px 12px; margin:4px; border-radius:20px; background:rgba(40,220,160,0.1); color:#28e0b0; border:1px solid #28e0b030;">独行开发者</span>
@@ -71,4 +70,4 @@
 </p>
 
 ---
-<small align="center" style="color:#5a6880;">© 段游孤独一生 | All code written alone</small>
+<p align="center"><small style="color:#5a6880;">© 段游孤独一生 | All code written alone</small></p>
